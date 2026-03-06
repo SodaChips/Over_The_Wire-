@@ -30,5 +30,6 @@ It will follow the order when we using `diff` code
 # Log in bandit18
 The line in passwords.new is the password for next level.  
 When you try to use this password to log in bandit18, it will unsuccesful and you will see 'Byebye!'.  
-Don't worry about it, it doesn't mean the password is wrong. Instead, you are solved this level.  
+Don't worry about it, it doesn't mean the password is wrong. Instead, you have solved this level.  
+  
 But...why it couldn't log in bandit18? It will be solved and explain in next level (bandit_18 ->19)
