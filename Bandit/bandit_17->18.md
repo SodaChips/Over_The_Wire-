@@ -23,8 +23,8 @@ The command output :
 	---
 > pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
 ```
-`<` is from passwords.new
-`>` is from passwords.old
+`<` is from passwords.new  
+`>` is from passwords.old  
 It will follow the order when we using `diff` code
 
 # Log in bandit18
