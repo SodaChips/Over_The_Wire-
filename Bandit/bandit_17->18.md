@@ -14,15 +14,19 @@ So we could use
 ```bash
 diff passwords.new passwords.old
 ```
-to grep the different between these two files.
+to compare these two files.
 
 # Result
-The result come out with :
+The command output :
 ```bash
 < x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 	---
 > pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
 ```
+`<` is from passwords.new
+`>` is from passwords.old
+It will follow the order when we using `diff` code
+
 # Log in bandit18
 The line start with `<` is the line in passwords.new which is our password for next level.  
 When you try to use this password to log in bandit18, it will unsuccesful and you will see 'Byebye!'.  
