@@ -6,7 +6,7 @@ From OTW website we know that the password for the next level is stored in a fil
 - password in file **readme**
 
 # Understanding main problem
-Since,  `.bashrc` of bandit 18 has been modified to log us out when us log in with SSH. So, we should think another way that we can get information from bandit 18 without log into it  
+Since,  `.bashrc` of bandit 18 has been modified to log us out when we log in with SSH. So, we should think another way that we can get information from bandit 18 without logging into it  
 (Actually I always want to try login through another way when I first time play this level, but the solution is easier than I think)
 
 Here is something we need to understand before we start to solve it   
@@ -14,7 +14,7 @@ The process that we log in through SSH will start with SSH authentication. Once 
 But due to the `.bashrc` has been modified (`exit` when we login) , so we couldn't login with SSH
 
 # Solution  
-The solution for this problem is......we just add our command after the login code (Too easy right? :) )  
+The solution for this problem is......we just append our command to the SSH connection code (Too easy right? :) )  
 `ssh bandit18@bandit.labs.overthewire.org -p 2220 (command)`  
 
 For an example, I want to confirm that the **readme** file is in the homedirectory of bandit 18. I could use  
