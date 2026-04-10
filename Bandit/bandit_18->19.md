@@ -15,14 +15,25 @@ But due to the `.bashrc` has been modified (`exit` when we login) , so we couldn
 
 # Solution  
 The solution for this problem is......we just append our command to the SSH connection code (Too easy right? :) )  
-`ssh bandit18@bandit.labs.overthewire.org -p 2220 (command)`  
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 (command)
+```  
 
 For an example, I want to confirm that the **readme** file is in the homedirectory of bandit 18. I could use  
-`ssh bandit18@bandit.labs.overthewire.org -p 2220 ls`  
-The result : `readme`  
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 ls
+```  
+The result : 
+```bash
+readme
+```  
+<br>
+<br>
 
 So, I can just get the pssword with command   
-`ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme`  
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+```  
 The result : `cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8` 
 
 # Explaination
