@@ -40,5 +40,5 @@ The password for the next level is stored in a hidden file in the inhere directo
 Use ``cat ...Hiding-From-You`` will get the password
 
 ---
-#### Password for bandit1
+#### Password for bandit4
    xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
