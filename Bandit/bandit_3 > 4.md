@@ -41,4 +41,4 @@ Use ``cat ...Hiding-From-You`` will get the password
 
 ---
 #### Password for bandit1
-   6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+   xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
