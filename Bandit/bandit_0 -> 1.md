@@ -16,5 +16,6 @@ use SSH (on port 2220) to log into that level and continue the game.
   When `ls` are used there show a file called *readme*. And we know that it stored password for next level.  
   Lets use `cat readme` to get the password
 
+---
 #### Password for bandit1
    6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
