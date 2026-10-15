@@ -42,5 +42,5 @@ After that, there will be a lot of `Permission denied`. But, there is an accessi
 So we could just ``cat /var/lib/dpkg/info/bandit7.password`` to get the password
      
 ---
-#### Password for bandit6
+#### Password for bandit7
    Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
